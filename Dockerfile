@@ -40,7 +40,7 @@ COPY logback.xml /etc/cassandra/logback.xml
 COPY kubernetes-cassandra.jar /kubernetes-cassandra.jar
 COPY status_check.sh /status_check.sh
 
-VOLUME ["/cassandra_data/data"]    
+#VOLUME ["/cassandra_data/data"]    
 
 USER cassandra
 
